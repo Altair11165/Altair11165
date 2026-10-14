@@ -19,7 +19,7 @@
 ```bash
 rishabh@altair:~$ whoami
 name       = "Rishabh Vyas"
-role       = "System & Network Engineer @ Rivira Bio Secure Solutions"
+role       = "System & Network Engineer @ Krystalline Salt Ltd."
 education  = "MSc Cyber Security (First Class Honours), National College of Ireland"
 certs      = ["CEH", "IBM Cybersecurity Analyst", "TryHackMe Pre Security"]
 runs       = ["Django", "Frappe", "GitHub org CI", "MikroTik networks"]
