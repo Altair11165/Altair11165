@@ -19,7 +19,7 @@
 ```bash
 rishabh@altair:~$ whoami
 name       = "Rishabh Vyas"
-role       = "System & Network Engineer @ Rivira Bio Secure Solutions"
+role       = "System & Network Engineer @ Krystalline Salt Ltd."
 education  = "MSc Cyber Security (First Class Honours), National College of Ireland"
 certs      = ["CEH", "IBM Cybersecurity Analyst", "TryHackMe Pre Security"]
 runs       = ["Django", "Frappe", "GitHub org CI", "MikroTik networks"]
@@ -123,7 +123,7 @@ More certifications on [LinkedIn](https://www.linkedin.com/in/rishabh-vyas-62097
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Altair11165/Altair11165/output/3-stats.svg" alt="GitHub stats" width="49%">
+  <img src="https://raw.githubusercontent.com/Altair11165/Altair11165/output/stats.svg" alt="GitHub stats" width="49%">
   <img src="https://raw.githubusercontent.com/Altair11165/Altair11165/output/streak.svg" alt="Contribution streak" width="49%">
 </p>
 
