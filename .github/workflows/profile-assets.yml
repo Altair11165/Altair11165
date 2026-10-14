@@ -40,6 +40,15 @@ jobs:
           path: dist/streak.svg
           token: ${{ env.STATS_TOKEN }}
 
+      - name: Stats card
+        uses: readme-tools/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&include_all_commits=true&show_icons=true&theme=tokyonight&hide_border=true
+          path: dist/stats.svg
+          token: ${{ env.STATS_TOKEN }}
+          fail_on_error: true
+
       - name: Summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
