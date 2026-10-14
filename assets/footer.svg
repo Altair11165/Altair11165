@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-label="Footer wave">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#26a641"/>
+      <stop offset=".5" stop-color="#0e4429"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#g)" d="M0 40C90 10 170 70 250 44C330 18 380 72 470 48C560 24 610 78 690 52C760 30 820 70 900 40V110H0Z"/>
+</svg>
