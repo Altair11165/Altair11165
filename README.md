@@ -49,23 +49,9 @@ motto      = "you can't break what you never built"
 
 ## What I run `$ systemctl list-units`
 
-```mermaid
-flowchart LR
-  subgraph AF["Africa"]
-    WS["Workstation"] --> RA["MikroTik edge A"]
-  end
-  subgraph IN["India · home lab"]
-    RB["MikroTik edge B"] --> TN["TrueNAS · storage"]
-    RB --> JF["Jellyfin · media"]
-    RB --> CB["Carbonio · mail"]
-  end
-  RA == "site-to-site VPN" ==> RB
-  WS -. "Tailscale failover" .-> RB
-  classDef edge fill:#2b2411,stroke:#d29922,color:#d29922
-  classDef svc fill:#151b23,stroke:#3d444d,color:#e6edf3
-  class RA,RB edge
-  class WS,TN,JF,CB svc
-```
+<p align="center">
+  <img src="assets/network.svg" width="100%" alt="Network: an Africa workstation reaches the India home lab (TrueNAS, Jellyfin, Carbonio) over a MikroTik site-to-site VPN, with Tailscale as the failover path">
+</p>
 
 <details open>
 <summary><b>At work</b> · production platform and team</summary>

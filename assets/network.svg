@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="Network: an Africa workstation reaches the India home lab over a MikroTik site-to-site VPN, with Tailscale as the failover path">
+  <style>
+    text { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    .flow { stroke-dasharray: 6 10; animation: flow .9s linear infinite; }
+    .fail { stroke-dasharray: 8 8; animation: flow 1.6s linear infinite, pulse 3s ease-in-out infinite; }
+    .led { animation: led 1.4s steps(1) infinite; }
+    .led.b { animation-delay: .5s; }
+    .led.c { animation-delay: .9s; }
+    @keyframes flow { to { stroke-dashoffset: -32; } }
+    @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes led { 0%, 70% { opacity: 1; } 71%, 100% { opacity: .2; } }
+    @media (prefers-reduced-motion: reduce) { .flow, .fail, .led { animation: none; } }
+  </style>
+
+  <rect width="900" height="340" rx="12" fill="#0d1117"/>
+  <rect x=".5" y=".5" width="899" height="339" rx="12" fill="none" stroke="#30363d"/>
+
+  <text x="30" y="40" fill="#9198a1" font-size="13" letter-spacing="1">AFRICA · workstation</text>
+  <text x="520" y="40" fill="#9198a1" font-size="13" letter-spacing="1">INDIA · home lab</text>
+
+  <!-- links -->
+  <line x1="200" y1="125" x2="250" y2="125" stroke="#3d444d" stroke-width="2"/>
+  <line x1="380" y1="125" x2="520" y2="125" stroke="#0e4429" stroke-width="10" stroke-linecap="round"/>
+  <line x1="380" y1="125" x2="520" y2="125" stroke="#39d353" stroke-width="3" class="flow"/>
+  <text x="450" y="98" text-anchor="middle" fill="#39d353" font-size="12">site-to-site VPN</text>
+  <path d="M650 125 H675 M675 85 V245 M675 85 H700 M675 165 H700 M675 245 H700" fill="none" stroke="#3d444d" stroke-width="2"/>
+  <path id="failover" d="M115 160 V270 H585 V160" fill="none" stroke="#bc8cff" stroke-width="2" class="fail"/>
+
+  <!-- packets -->
+  <g fill="#39d353">
+    <circle r="4"><animateMotion dur="1.8s" repeatCount="indefinite" path="M380 125 H520"/></circle>
+    <circle r="4"><animateMotion dur="1.8s" begin=".6s" repeatCount="indefinite" path="M380 125 H520"/></circle>
+    <circle r="4"><animateMotion dur="1.8s" begin="1.2s" repeatCount="indefinite" path="M520 125 H380"/></circle>
+  </g>
+  <circle r="4" fill="#bc8cff"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#failover"/></animateMotion></circle>
+
+  <!-- nodes -->
+  <rect x="30" y="90" width="170" height="70" rx="10" fill="#151b23" stroke="#3d444d"/>
+  <text x="115" y="121" text-anchor="middle" fill="#e6edf3" font-size="15">Workstation</text>
+  <text x="115" y="143" text-anchor="middle" fill="#9198a1" font-size="12">client</text>
+
+  <rect x="250" y="90" width="130" height="70" rx="10" fill="#2b2411" stroke="#d29922"/>
+  <text x="315" y="121" text-anchor="middle" fill="#d29922" font-size="15">MikroTik</text>
+  <text x="315" y="143" text-anchor="middle" fill="#9198a1" font-size="12">edge A</text>
+
+  <rect x="520" y="90" width="130" height="70" rx="10" fill="#2b2411" stroke="#d29922"/>
+  <text x="585" y="121" text-anchor="middle" fill="#d29922" font-size="15">MikroTik</text>
+  <text x="585" y="143" text-anchor="middle" fill="#9198a1" font-size="12">edge B</text>
+
+  <rect x="700" y="60" width="170" height="50" rx="8" fill="#151b23" stroke="#3d444d"/>
+  <text x="716" y="90" fill="#e6edf3" font-size="14">TrueNAS <tspan fill="#9198a1" font-size="11">storage</tspan></text>
+  <circle class="led" cx="852" cy="85" r="4" fill="#39d353"/>
+
+  <rect x="700" y="140" width="170" height="50" rx="8" fill="#151b23" stroke="#3d444d"/>
+  <text x="716" y="170" fill="#e6edf3" font-size="14">Jellyfin <tspan fill="#9198a1" font-size="11">media</tspan></text>
+  <circle class="led b" cx="852" cy="165" r="4" fill="#39d353"/>
+
+  <rect x="700" y="220" width="170" height="50" rx="8" fill="#151b23" stroke="#3d444d"/>
+  <text x="716" y="250" fill="#e6edf3" font-size="14">Carbonio <tspan fill="#9198a1" font-size="11">mail</tspan></text>
+  <circle class="led c" cx="852" cy="245" r="4" fill="#39d353"/>
+
+  <rect x="255" y="255" width="200" height="30" rx="15" fill="#0d1117" stroke="#bc8cff"/>
+  <text x="355" y="275" text-anchor="middle" fill="#bc8cff" font-size="12">Tailscale · failover path</text>
+
+  <text x="30" y="318" fill="#9198a1" font-size="12">Primary: site-to-site VPN between MikroTik routers · Fallback: Tailscale mesh if the tunnel drops</text>
+</svg>
