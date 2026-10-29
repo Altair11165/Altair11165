@@ -56,7 +56,8 @@
 </p>
 
 <details open>
-<summary><picture><img src="assets/sections/ai.svg" width="94%" align="middle" alt="AI agent engineering: shared kit for Claude Code and Codex"></picture></summary>
+<summary><picture><img src="assets/sections/ai.svg" width="96%" align="middle" alt="AI agent engineering: shared kit for Claude Code and Codex"></picture></summary>
+<dl><dd>
 
 ```text
 $ cat ~/work/ai-agent-engineering.log
@@ -86,10 +87,13 @@ $ cat ~/work/ai-agent-engineering.log
   model picker and more) in the kit's 9-plugin marketplace.
 ```
 
+</dd></dl>
+
 </details>
 
 <details>
-<summary><picture><img src="assets/sections/devsecops.svg" width="94%" align="middle" alt="DevSecOps: CI checks and reviewer sign-off before merge"></picture></summary>
+<summary><picture><img src="assets/sections/devsecops.svg" width="96%" align="middle" alt="DevSecOps: CI checks and reviewer sign-off before merge"></picture></summary>
+<dl><dd>
 
 ```text
 $ cat ~/work/devsecops.log
@@ -114,10 +118,13 @@ $ cat ~/work/devsecops.log
   Found and fixed an information-disclosure exposure on a public website.
 ```
 
+</dd></dl>
+
 </details>
 
 <details>
-<summary><picture><img src="assets/sections/apps.svg" width="94%" align="middle" alt="Business apps: fleet fuel, petty cash and legal deadlines"></picture></summary>
+<summary><picture><img src="assets/sections/apps.svg" width="96%" align="middle" alt="Business apps: fleet fuel, petty cash and legal deadlines"></picture></summary>
+<dl><dd>
 
 ```text
 $ cat ~/work/business-apps.log
@@ -141,10 +148,13 @@ $ cat ~/work/business-apps.log
   lead a team of developers on reviews and release flow.
 ```
 
+</dd></dl>
+
 </details>
 
 <details>
-<summary><picture><img src="assets/sections/network.svg" width="94%" align="middle" alt="Network: Africa to India VPN with a Tailscale fallback"></picture></summary>
+<summary><picture><img src="assets/sections/network.svg" width="96%" align="middle" alt="Network: Africa to India VPN with a Tailscale fallback"></picture></summary>
+<dl><dd>
 
 ```text
 $ cat ~/lab/network.log
@@ -158,10 +168,13 @@ $ cat ~/lab/network.log
   reachable if the tunnel drops.
 ```
 
+</dd></dl>
+
 </details>
 
 <details>
-<summary><picture><img src="assets/sections/homelab.svg" width="94%" align="middle" alt="Home lab: TrueNAS storage, Jellyfin media, Carbonio mail"></picture></summary>
+<summary><picture><img src="assets/sections/homelab.svg" width="96%" align="middle" alt="Home lab: TrueNAS storage, Jellyfin media, Carbonio mail"></picture></summary>
+<dl><dd>
 
 ```text
 $ cat ~/lab/homelab.log
@@ -172,6 +185,8 @@ $ cat ~/lab/homelab.log
 ■ Self-hosted services
   Jellyfin for media and Carbonio for mail and collaboration.
 ```
+
+</dd></dl>
 
 </details>
 
