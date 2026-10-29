@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=39D353&center=true&vCenter=true&width=600&height=45&lines=$+whoami;MSc+Cybersecurity+%C2%B7+CEH;System+%26+Network+Engineer;Securing+a+GitHub+org+with+custom+CI;Next+stop%3A+offensive+security" alt="whoami: MSc Cybersecurity, CEH, System and Network Engineer, moving into offensive security">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=39D353&center=true&vCenter=true&width=600&height=45&lines=$+whoami;System+%26+Network+Engineer;Building+AI+agent+workflows;MSc+Cybersecurity+%C2%B7+CEH;Shipping+Frappe+%26+Django+apps;Securing+a+GitHub+org+with+custom+CI;Next+stop%3A+offensive+security" alt="whoami: System and Network Engineer, building AI agent workflows, MSc Cybersecurity and CEH, shipping Frappe and Django apps, moving into offensive security">
 </p>
 
 <p align="center">
@@ -20,6 +20,7 @@
 rishabh@altair:~$ whoami
 name       = "Rishabh Vyas"
 role       = "System & Network Engineer @ Krystalline Salt Ltd."
+builds     = ["AI agent workflows (Claude Code, Codex)", "Frappe & Django apps", "CI merge gates"]
 education  = "MSc Cyber Security (First Class Honours), National College of Ireland"
 certs      = ["CEH", "IBM Cybersecurity Analyst", "TryHackMe Pre Security"]
 runs       = ["Django", "Frappe", "GitHub org CI", "MikroTik networks"]
@@ -54,6 +55,19 @@ motto      = "you can't break what you never built"
 </p>
 
 <details open>
+<summary><b>AI agent engineering</b> · agents that build, guarded by policy</summary>
+<br>
+
+- Built the company's agent kit for **Claude Code** and **OpenAI Codex**: one install sets up a developer machine with shared rules, a guard, model policy and plugins, and keeps itself updated daily.
+- Spec-driven workflow: every change goes requirements → design → tasks → build → PR, with approval lines and a spec checker. Humans keep merge rights.
+- Guard hooks stop agents from running destructive git commands, pushing to protected branches or editing their own settings and CI.
+- Multi-agent orchestration: orchestrator, worker, verifier and scout sub-agents, each on a model and effort picked by policy.
+- Pre-PR pipeline where agents rebuild a test site, run the server and UI suites, and record captioned walkthroughs for every role.
+- Wrote 7 Claude Code mods (live agent pane, workflow board, session gauge, model picker and more), bundled in the kit's 9-plugin marketplace.
+
+</details>
+
+<details>
 <summary><b>At work</b> · production platform and team</summary>
 <br>
 
