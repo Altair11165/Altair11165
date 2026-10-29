@@ -23,19 +23,9 @@
   <img src="https://img.shields.io/badge/agent%20plugins-9-D97757?style=flat-square&logo=claude&logoColor=white&labelColor=0d1117" alt="9 agent plugins">
 </p>
 
-```bash
-rishabh@altair:~$ whoami
-name       = "Rishabh Vyas"
-role       = "System & Network Engineer @ Krystalline Salt Ltd."
-builds     = ["AI agent workflows (Claude Code, Codex)", "Frappe & Django apps", "CI merge gates"]
-education  = "MSc Cyber Security (First Class Honours), National College of Ireland"
-certs      = ["CEH", "IBM Cybersecurity Analyst", "TryHackMe Pre Security"]
-runs       = ["Django", "Frappe", "GitHub org CI", "MikroTik networks"]
-leads      = "a team of developers"
-homelab    = ["TrueNAS", "Jellyfin", "Carbonio"]
-learning   = "offensive security"   # TryHackMe, Jr Penetration Tester next
-motto      = "you can't break what you never built"
-```
+<p align="center">
+  <img src="assets/whoami.svg" width="100%" alt="whoami. name: Rishabh Vyas. role: System and Network Engineer at Krystalline Salt Ltd. leads: a team of developers. builds: AI agent workflows (Claude Code, Codex), Frappe and Django apps, CI merge gates. runs: Django, Frappe, GitHub org CI, MikroTik networks. education: MSc Cyber Security, First Class Honours, National College of Ireland. certs: CEH, IBM Cybersecurity Analyst, TryHackMe Pre Security. homelab: TrueNAS, Jellyfin, Carbonio. learning: offensive security, Jr Penetration Tester next. motto: you can't break what you never built.">
+</p>
 
 ## Arsenal `$ ls ~/tools`
 
@@ -66,56 +56,122 @@ motto      = "you can't break what you never built"
 </p>
 
 <details open>
-<summary><b>AI agent engineering</b> · agents that build, guarded by policy</summary>
-<br>
+<summary><picture><img src="assets/sections/ai.svg" width="94%" align="middle" alt="AI agent engineering: shared kit for Claude Code and Codex"></picture></summary>
 
-- Built the company's agent kit for **Claude Code** and **OpenAI Codex**: one install sets up a developer machine with shared rules, a guard, model policy and plugins, and keeps itself updated daily.
-- Spec-driven workflow: every change goes requirements → design → tasks → build → PR, with approval lines and a spec checker. Humans keep merge rights.
-- Guard hooks stop agents from running destructive git commands, pushing to protected branches or editing their own settings and CI.
-- Multi-agent orchestration: orchestrator, worker, verifier and scout sub-agents, each on a model and effort picked by policy.
-- Pre-PR pipeline where agents rebuild a test site, run the server and UI suites, and record captioned walkthroughs for every role.
-- Wrote 7 Claude Code mods (live agent pane, workflow board, session gauge, model picker and more), bundled in the kit's 9-plugin marketplace.
+```text
+$ cat ~/work/ai-agent-engineering.log
 
-</details>
+■ One install, a consistent setup
+  Company kit for Claude Code and OpenAI Codex: shared rules, guard,
+  model policy and plugins on every developer machine, updated daily.
 
-<details>
-<summary><b>DevSecOps</b> · GitHub org, merge gates, security</summary>
-<br>
+■ Spec before code
+  requirements → design → tasks → build → PR, with approval lines
+  and a spec checker. Humans keep merge rights.
 
-- Own the company **GitHub organization**: rulesets, required checks, custom CI gates, least-privilege teams. Automated CD is in progress.
-- Built merge gates for private repos without branch protection: exact-commit CI checks, reviewer sign-off, codeowner merge audit and alerts on main. 18 workflows across two app repos, with automatic version bumps on merge.
-- Moving CI to self-hosted runners, keeping fork pull requests on isolated runners.
-- Security monitoring: SIEM, intrusion detection and SOC operations.
-- Found and fixed an information-disclosure exposure on a public website.
+■ Guardrails before every change
+  Hooks block destructive git commands, pushes to protected branches
+  and agents editing their own settings or CI.
 
-</details>
+■ Agents that work as a team
+  Orchestrator, worker, verifier and scout sub-agents, each on a
+  model and effort picked by policy.
 
-<details>
-<summary><b>Business apps</b> · Frappe and Django in production</summary>
-<br>
+■ Proof on every pull request
+  Agents rebuild a test site, run the server and UI suites, and record
+  captioned walkthroughs for every role.
 
-- **Fleet management** (Frappe): fuel orders with approval workflow, printable fuel slips, fuelling records with gauge photos and reports. 28 specs, 13 DocTypes, 39 merged PRs.
-- **Petty cash** (Frappe): ported a legacy Django app to Frappe workflows with disbursements and an audit trail. 16 DocTypes, 78 merged PRs, release v0.6.0.
-- **Litigation matter tracker** (Django): hearings, tasks, deadline alerts, email digests and calendar sync for the legal team.
-- Run and harden the production **Django** and **Frappe** environments, and lead a team of developers on reviews and release flow.
+■ Tools built around the workflow
+  7 Claude Code mods (live agent pane, workflow board, session gauge,
+  model picker and more) in the kit's 9-plugin marketplace.
+```
 
 </details>
 
 <details>
-<summary><b>Network</b> · routing, VPN, failover</summary>
-<br>
+<summary><picture><img src="assets/sections/devsecops.svg" width="94%" align="middle" alt="DevSecOps: CI checks and reviewer sign-off before merge"></picture></summary>
 
-- Configured MikroTik routers for a cross-continent VPN from Africa to my lab in India.
-- Added Tailscale as an independent fallback, so the lab stays reachable if the tunnel drops.
+```text
+$ cat ~/work/devsecops.log
+
+■ GitHub organization owner
+  Rulesets, required checks, custom CI gates, least-privilege teams.
+  Automated CD is in progress.
+
+■ Merge gates for repos without branch protection
+  Exact-commit CI checks, reviewer sign-off, codeowner merge audit and
+  alerts on main. 18 workflows across two app repos, with automatic
+  version bumps on merge.
+
+■ Self-hosted CI runners
+  Moving CI to self-hosted runners, with fork pull requests kept on
+  isolated runners.
+
+■ Security monitoring
+  SIEM, intrusion detection and SOC operations.
+
+■ Incident response
+  Found and fixed an information-disclosure exposure on a public website.
+```
 
 </details>
 
 <details>
-<summary><b>Home lab</b> · storage and self-hosted services</summary>
-<br>
+<summary><picture><img src="assets/sections/apps.svg" width="94%" align="middle" alt="Business apps: fleet fuel, petty cash and legal deadlines"></picture></summary>
 
-- TrueNAS for storage, with Synology experience alongside it.
-- Self-hosted Jellyfin (media) and Carbonio (mail and collaboration).
+```text
+$ cat ~/work/business-apps.log
+
+■ Fleet management · Frappe
+  Fuel orders with approval workflow, printable fuel slips, fuelling
+  records with gauge photos and reports.
+  28 specs · 13 DocTypes · 39 merged PRs
+
+■ Petty cash · Frappe
+  Ported a legacy Django app to Frappe workflows, with disbursements
+  and an audit trail.
+  16 DocTypes · 78 merged PRs · release v0.6.0
+
+■ Litigation matter tracker · Django
+  Hearings, tasks, deadline alerts, email digests and calendar sync
+  for the legal team.
+
+■ Production and team
+  Run and harden the production Django and Frappe environments, and
+  lead a team of developers on reviews and release flow.
+```
+
+</details>
+
+<details>
+<summary><picture><img src="assets/sections/network.svg" width="94%" align="middle" alt="Network: Africa to India VPN with a Tailscale fallback"></picture></summary>
+
+```text
+$ cat ~/lab/network.log
+
+■ Cross-continent VPN
+  Configured MikroTik routers for a site-to-site VPN from Africa to
+  my lab in India.
+
+■ Failover path
+  Added Tailscale as an independent fallback, so the lab stays
+  reachable if the tunnel drops.
+```
+
+</details>
+
+<details>
+<summary><picture><img src="assets/sections/homelab.svg" width="94%" align="middle" alt="Home lab: TrueNAS storage, Jellyfin media, Carbonio mail"></picture></summary>
+
+```text
+$ cat ~/lab/homelab.log
+
+■ Storage
+  TrueNAS, with Synology experience alongside it.
+
+■ Self-hosted services
+  Jellyfin for media and Carbonio for mail and collaboration.
+```
 
 </details>
 

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 60" width="860" height="60" role="img" aria-label="Home lab: TrueNAS storage, Jellyfin media, Carbonio mail">
+  <rect x="1" y="1" width="858" height="58" rx="10" fill="#151b23" stroke="#3d444d" stroke-width="1.5"/>
+  <text x="26" y="38" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="700" fill="#39d353">&gt;_</text>
+  <text x="78" y="37" font-family="-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#e6edf3">Home lab</text>
+  <text x="330" y="36" font-family="-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" fill="#9198a1">TrueNAS storage, Jellyfin media, Carbonio mail</text>
+  <path d="M822 25 l7 7 l7 -7" fill="none" stroke="#9198a1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

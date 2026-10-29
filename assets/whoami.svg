@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 540" width="860" height="540" role="img" aria-label="name: Rishabh Vyas; role: System &amp; Network Engineer @ Krystalline Salt Ltd.; leads: a team of developers; builds: AI agent workflows (Claude Code, Codex); also: Frappe &amp; Django apps · CI merge gates; runs: Django · Frappe · GitHub org CI · MikroTik networks; education: MSc Cyber Security, First Class Honours; also: National College of Ireland; certs: CEH · IBM Cybersecurity Analyst · TryHackMe Pre Security; homelab: TrueNAS · Jellyfin · Carbonio; learning: offensive security; motto: “you can’t break what you never built”">
+  <rect x="1" y="1" width="858" height="538" rx="12" fill="#0d1117" stroke="#3d444d" stroke-width="1.5"/>
+  <path d="M1 13 a12 12 0 0 1 12 -12 h834 a12 12 0 0 1 12 12 v35 h-858 z" fill="#151b23"/>
+  <line x1="1" y1="48" x2="859" y2="48" stroke="#3d444d" stroke-width="1.5"/>
+  <circle cx="28" cy="25" r="7" fill="#ff5f57"/><circle cx="52" cy="25" r="7" fill="#febc2e"/><circle cx="76" cy="25" r="7" fill="#28c840"/>
+  <text x="104" y="31" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#39d353">rishabh@altair:~$ <tspan fill="#e6edf3">whoami</tspan></text>
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="18">
+  <text x="36" y="92" fill="#39d353">name</text>
+  <text x="186" y="92" fill="#e6edf3">Rishabh Vyas</text>
+  <text x="36" y="124" fill="#39d353">role</text>
+  <text x="186" y="124" fill="#e6edf3">System &amp; Network Engineer @ Krystalline Salt Ltd.</text>
+  <text x="36" y="156" fill="#39d353">leads</text>
+  <text x="186" y="156" fill="#e6edf3">a team of developers</text>
+  <text x="36" y="206" fill="#39d353">builds</text>
+  <text x="186" y="206" fill="#e6edf3">AI agent workflows (Claude Code, Codex)</text>
+  <text x="186" y="238" fill="#e6edf3">Frappe &amp; Django apps · CI merge gates</text>
+  <text x="36" y="270" fill="#39d353">runs</text>
+  <text x="186" y="270" fill="#e6edf3">Django · Frappe · GitHub org CI · MikroTik networks</text>
+  <text x="36" y="320" fill="#39d353">education</text>
+  <text x="186" y="320" fill="#e6edf3">MSc Cyber Security, First Class Honours</text>
+  <text x="186" y="352" fill="#e6edf3">National College of Ireland</text>
+  <text x="36" y="384" fill="#39d353">certs</text>
+  <text x="186" y="384" fill="#e6edf3">CEH · IBM Cybersecurity Analyst · TryHackMe Pre Security</text>
+  <text x="36" y="434" fill="#39d353">homelab</text>
+  <text x="186" y="434" fill="#e6edf3">TrueNAS · Jellyfin · Carbonio</text>
+  <text x="36" y="466" fill="#39d353">learning</text>
+  <text x="186" y="466" fill="#e6edf3">offensive security<tspan fill="#9198a1">   # Jr Penetration Tester next</tspan></text>
+  <text x="36" y="498" fill="#39d353">motto</text>
+  <text x="186" y="498" fill="#e6edf3">“you can’t break what you never built”</text>
+  </g>
+</svg>
