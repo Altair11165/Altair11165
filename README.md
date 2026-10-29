@@ -9,11 +9,18 @@
 <p align="center">
   <img src="https://img.shields.io/badge/CEH-EC--Council-B71C1C?style=for-the-badge&labelColor=0d1117" alt="CEH">
   <img src="https://img.shields.io/badge/MSc-Cyber%20Security-39d353?style=for-the-badge&labelColor=0d1117" alt="MSc Cyber Security">
-  <img src="https://img.shields.io/badge/TryHackMe-Top%208%25-C11111?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=0d1117" alt="TryHackMe Top 8%">
+  <img src="https://img.shields.io/badge/AI%20agents-Claude%20Code%20%C2%B7%20Codex-D97757?style=for-the-badge&logo=claude&logoColor=white&labelColor=0d1117" alt="AI agents: Claude Code and Codex">
   <img src="https://img.shields.io/badge/Django-production-44B78B?style=for-the-badge&logo=django&logoColor=white&labelColor=0d1117" alt="Django">
   <img src="https://img.shields.io/badge/Frappe-production-0089FF?style=for-the-badge&logo=frappe&logoColor=white&labelColor=0d1117" alt="Frappe">
   <img src="https://img.shields.io/badge/MikroTik-VPN-D29922?style=for-the-badge&logo=mikrotik&logoColor=white&labelColor=0d1117" alt="MikroTik">
   <img src="https://img.shields.io/badge/Tailscale-failover-BC8CFF?style=for-the-badge&logo=tailscale&logoColor=white&labelColor=0d1117" alt="Tailscale">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/merged%20PRs-127-39d353?style=flat-square&logo=github&labelColor=0d1117" alt="127 merged pull requests">
+  <img src="https://img.shields.io/badge/production%20apps-3-0089FF?style=flat-square&labelColor=0d1117" alt="3 production apps">
+  <img src="https://img.shields.io/badge/CI%20workflows-18-D29922?style=flat-square&logo=githubactions&logoColor=white&labelColor=0d1117" alt="18 CI workflows">
+  <img src="https://img.shields.io/badge/agent%20plugins-9-D97757?style=flat-square&logo=claude&logoColor=white&labelColor=0d1117" alt="9 agent plugins">
 </p>
 
 ```bash
@@ -37,6 +44,10 @@ motto      = "you can't break what you never built"
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/OpenAI%20Codex-412991?style=flat-square" alt="OpenAI Codex">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native">
   <img src="https://img.shields.io/badge/Frappe-0089FF?style=flat-square&logo=frappe&logoColor=white" alt="Frappe">
   <img src="https://img.shields.io/badge/MikroTik-293239?style=flat-square&logo=mikrotik&logoColor=white" alt="MikroTik">
   <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" alt="Tailscale">
@@ -68,13 +79,25 @@ motto      = "you can't break what you never built"
 </details>
 
 <details>
-<summary><b>At work</b> · production platform and team</summary>
+<summary><b>DevSecOps</b> · GitHub org, merge gates, security</summary>
 <br>
 
-- Run and harden production **Django** and **Frappe** environments.
 - Own the company **GitHub organization**: rulesets, required checks, custom CI gates, least-privilege teams. Automated CD is in progress.
+- Built merge gates for private repos without branch protection: exact-commit CI checks, reviewer sign-off, codeowner merge audit and alerts on main. 18 workflows across two app repos, with automatic version bumps on merge.
+- Moving CI to self-hosted runners, keeping fork pull requests on isolated runners.
 - Security monitoring: SIEM, intrusion detection and SOC operations.
-- Lead a team of developers on reviews and release flow.
+- Found and fixed an information-disclosure exposure on a public website.
+
+</details>
+
+<details>
+<summary><b>Business apps</b> · Frappe and Django in production</summary>
+<br>
+
+- **Fleet management** (Frappe): fuel orders with approval workflow, printable fuel slips, fuelling records with gauge photos and reports. 28 specs, 13 DocTypes, 39 merged PRs.
+- **Petty cash** (Frappe): ported a legacy Django app to Frappe workflows with disbursements and an audit trail. 16 DocTypes, 78 merged PRs, release v0.6.0.
+- **Litigation matter tracker** (Django): hearings, tasks, deadline alerts, email digests and calendar sync for the legal team.
+- Run and harden the production **Django** and **Frappe** environments, and lead a team of developers on reviews and release flow.
 
 </details>
 
@@ -114,15 +137,14 @@ More certifications on [LinkedIn](https://www.linkedin.com/in/rishabh-vyas-62097
 
 - **Blockchain in IoT to mitigate DDoS attacks** (MSc, 2022). Studied how to stop DDoS floods from many sources in IoT networks using blockchain.
 - **Accident prevention with machine learning** (2020). Predicted road accidents in Rajasthan from public data.
+- **[ShowTracker](https://github.com/Altair11165/TV_Tracker)** (2026). TV and movie tracker for a household: React Native (Expo) app with a Node and SQLite server on TMDB data.
 
 </details>
 
 ## Offensive security log `$ cat progress.log`
 
 <p>
-  <img src="https://img.shields.io/badge/Rank-Top%208%25-C11111?style=flat-square&logo=tryhackme&logoColor=white&labelColor=212C42" alt="Rank Top 8%">
-  <img src="https://img.shields.io/badge/League-Bronze-CD7F32?style=flat-square&labelColor=212C42" alt="League Bronze">
-  <img src="https://img.shields.io/badge/Best%20streak-12%20days-39d353?style=flat-square&labelColor=212C42" alt="Best streak 12 days">
+  <a href="https://tryhackme.com/p/Altair11165"><img src="https://tryhackme-badges.s3.amazonaws.com/Altair11165.png" alt="TryHackMe live badge: rank, badges and level"></a>
 </p>
 
 - [x] Pre Security path
