@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/whoami.svg" width="100%" alt="whoami. name: Rishabh Vyas. role: System and Network Engineer at Krystalline Salt Ltd. leads: a team of developers. builds: AI agent workflows (Claude Code, Codex), Frappe and Django apps, CI merge gates. runs: Django, Frappe, GitHub org CI, MikroTik networks. education: MSc Cyber Security, First Class Honours, National College of Ireland. certs: CEH, IBM Cybersecurity Analyst, TryHackMe Pre Security. homelab: TrueNAS, Jellyfin, Carbonio. learning: offensive security, Jr Penetration Tester next. motto: you can't break what you never built.">
+  <img src="assets/whoami.svg" width="100%" alt="whoami. name: Rishabh Vyas. role: System and Network Engineer at Krystalline Salt Ltd. leads: a team of developers. builds: AI agent workflows (Claude Code, Codex), Frappe and Django apps, CI/CD pipelines. runs: Django, Frappe, GitHub org CI, MikroTik networks. education: MSc Cyber Security, First Class Honours, National College of Ireland. certs: CEH, IBM Cybersecurity Analyst, TryHackMe Pre Security. homelab: TrueNAS, Jellyfin, Carbonio. learning: offensive security, Jr Penetration Tester next. motto: you can't break what you never built.">
 </p>
 
 ## Arsenal `$ ls ~/tools`
@@ -92,7 +92,7 @@ $ cat ~/work/ai-agent-engineering.log
 </details>
 
 <details>
-<summary><picture><img src="assets/sections/devsecops.svg" width="96%" align="middle" alt="DevSecOps: CI checks and reviewer sign-off before merge"></picture></summary>
+<summary><picture><img src="assets/sections/devsecops.svg" width="96%" align="middle" alt="DevSecOps: CI/CD, merge gates and automated deploys"></picture></summary>
 <dl><dd>
 
 ```text
@@ -100,12 +100,17 @@ $ cat ~/work/devsecops.log
 
 ■ GitHub organization owner
   Rulesets, required checks, custom CI gates, least-privilege teams.
-  Automated CD is in progress.
 
 ■ Merge gates for repos without branch protection
   Exact-commit CI checks, reviewer sign-off, codeowner merge audit and
   alerts on main. 18 workflows across two app repos, with automatic
   version bumps on merge.
+
+■ Continuous deployment · in progress
+  Building a GitHub App that deploys merged code to company servers:
+  read-only repo access, a poller that works from behind NAT, and an
+  SSH forced command that backs up, migrates and restarts each site.
+  Piloted on one app, planned for about 20 repos.
 
 ■ Self-hosted CI runners
   Moving CI to self-hosted runners, with fork pull requests kept on
@@ -123,11 +128,15 @@ $ cat ~/work/devsecops.log
 </details>
 
 <details>
-<summary><picture><img src="assets/sections/apps.svg" width="96%" align="middle" alt="Business apps: fleet fuel, petty cash and legal deadlines"></picture></summary>
+<summary><picture><img src="assets/sections/apps.svg" width="96%" align="middle" alt="Business apps: moving production apps onto Frappe"></picture></summary>
 <dl><dd>
 
 ```text
 $ cat ~/work/business-apps.log
+
+■ Moving production apps onto Frappe
+  Responsible for migrating the company's existing production apps
+  onto the Frappe framework, starting with petty cash.
 
 ■ Fleet management · Frappe
   Fuel orders with approval workflow, printable fuel slips, fuelling
