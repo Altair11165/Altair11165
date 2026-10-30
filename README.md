@@ -3,31 +3,29 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=39D353&center=true&vCenter=true&width=600&height=45&lines=$+whoami;MSc+Cybersecurity+%C2%B7+CEH;System+%26+Network+Engineer;Securing+a+GitHub+org+with+custom+CI;Next+stop%3A+offensive+security" alt="whoami: MSc Cybersecurity, CEH, System and Network Engineer, moving into offensive security">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=39D353&center=true&vCenter=true&width=600&height=45&lines=$+whoami;System+%26+Network+Engineer;Building+AI+agent+workflows;MSc+Cybersecurity+%C2%B7+CEH;Shipping+Frappe+%26+Django+apps;Securing+a+GitHub+org+with+custom+CI;Next+stop%3A+offensive+security" alt="whoami: System and Network Engineer, building AI agent workflows, MSc Cybersecurity and CEH, shipping Frappe and Django apps, moving into offensive security">
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/CEH-EC--Council-B71C1C?style=for-the-badge&labelColor=0d1117" alt="CEH">
   <img src="https://img.shields.io/badge/MSc-Cyber%20Security-39d353?style=for-the-badge&labelColor=0d1117" alt="MSc Cyber Security">
-  <img src="https://img.shields.io/badge/TryHackMe-Top%208%25-C11111?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=0d1117" alt="TryHackMe Top 8%">
+  <img src="https://img.shields.io/badge/AI%20agents-Claude%20Code%20%C2%B7%20Codex-D97757?style=for-the-badge&logo=claude&logoColor=white&labelColor=0d1117" alt="AI agents: Claude Code and Codex">
   <img src="https://img.shields.io/badge/Django-production-44B78B?style=for-the-badge&logo=django&logoColor=white&labelColor=0d1117" alt="Django">
   <img src="https://img.shields.io/badge/Frappe-production-0089FF?style=for-the-badge&logo=frappe&logoColor=white&labelColor=0d1117" alt="Frappe">
   <img src="https://img.shields.io/badge/MikroTik-VPN-D29922?style=for-the-badge&logo=mikrotik&logoColor=white&labelColor=0d1117" alt="MikroTik">
   <img src="https://img.shields.io/badge/Tailscale-failover-BC8CFF?style=for-the-badge&logo=tailscale&logoColor=white&labelColor=0d1117" alt="Tailscale">
 </p>
 
-```bash
-rishabh@altair:~$ whoami
-name       = "Rishabh Vyas"
-role       = "System & Network Engineer @ Krystalline Salt Ltd."
-education  = "MSc Cyber Security (First Class Honours), National College of Ireland"
-certs      = ["CEH", "IBM Cybersecurity Analyst", "TryHackMe Pre Security"]
-runs       = ["Django", "Frappe", "GitHub org CI", "MikroTik networks"]
-leads      = "a team of developers"
-homelab    = ["TrueNAS", "Jellyfin", "Carbonio"]
-learning   = "offensive security"   # TryHackMe, Jr Penetration Tester next
-motto      = "you can't break what you never built"
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/merged%20PRs-127-39d353?style=flat-square&logo=github&labelColor=0d1117" alt="127 merged pull requests">
+  <img src="https://img.shields.io/badge/production%20apps-3-0089FF?style=flat-square&labelColor=0d1117" alt="3 production apps">
+  <img src="https://img.shields.io/badge/CI%20workflows-18-D29922?style=flat-square&logo=githubactions&logoColor=white&labelColor=0d1117" alt="18 CI workflows">
+  <img src="https://img.shields.io/badge/agent%20plugins-9-D97757?style=flat-square&logo=claude&logoColor=white&labelColor=0d1117" alt="9 agent plugins">
+</p>
+
+<p align="center">
+  <img src="assets/whoami.svg" width="100%" alt="whoami. name: Rishabh Vyas. role: System and Network Engineer at Krystalline Salt Ltd. leads: a team of developers. builds: AI agent workflows (Claude Code, Codex), Frappe and Django apps, CI/CD pipelines. runs: Django, Frappe, GitHub org CI, MikroTik networks. education: MSc Cyber Security, First Class Honours, National College of Ireland. certs: CEH, IBM Cybersecurity Analyst, TryHackMe Pre Security. homelab: TrueNAS, Jellyfin, Carbonio. learning: offensive security, Jr Penetration Tester next. motto: you can't break what you never built.">
+</p>
 
 ## Arsenal `$ ls ~/tools`
 
@@ -36,6 +34,10 @@ motto      = "you can't break what you never built"
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/OpenAI%20Codex-412991?style=flat-square" alt="OpenAI Codex">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native">
   <img src="https://img.shields.io/badge/Frappe-0089FF?style=flat-square&logo=frappe&logoColor=white" alt="Frappe">
   <img src="https://img.shields.io/badge/MikroTik-293239?style=flat-square&logo=mikrotik&logoColor=white" alt="MikroTik">
   <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" alt="Tailscale">
@@ -54,31 +56,146 @@ motto      = "you can't break what you never built"
 </p>
 
 <details open>
-<summary><b>At work</b> · production platform and team</summary>
-<br>
+<summary><picture><img src="assets/sections/ai.svg" width="96%" align="middle" alt="AI agent engineering: shared kit for Claude Code and Codex"></picture></summary>
+<dl><dd>
 
-- Run and harden production **Django** and **Frappe** environments.
-- Own the company **GitHub organization**: rulesets, required checks, custom CI gates, least-privilege teams. Automated CD is in progress.
-- Security monitoring: SIEM, intrusion detection and SOC operations.
-- Lead a team of developers on reviews and release flow.
+```text
+$ cat ~/work/ai-agent-engineering.log
+
+■ One install, a consistent setup
+  Company kit for Claude Code and OpenAI Codex: shared rules, guard,
+  model policy and plugins on every developer machine, updated daily.
+
+■ Spec before code
+  requirements → design → tasks → build → PR, with approval lines
+  and a spec checker. Humans keep merge rights.
+
+■ Guardrails before every change
+  Hooks block destructive git commands, pushes to protected branches
+  and agents editing their own settings or CI.
+
+■ Agents that work as a team
+  Orchestrator, worker, verifier and scout sub-agents, each on a
+  model and effort picked by policy.
+
+■ Proof on every pull request
+  Agents rebuild a test site, run the server and UI suites, and record
+  captioned walkthroughs for every role.
+
+■ Tools built around the workflow
+  7 Claude Code mods (live agent pane, workflow board, session gauge,
+  model picker and more) in the kit's 9-plugin marketplace.
+```
+
+</dd></dl>
 
 </details>
 
 <details>
-<summary><b>Network</b> · routing, VPN, failover</summary>
-<br>
+<summary><picture><img src="assets/sections/devsecops.svg" width="96%" align="middle" alt="DevSecOps: CI/CD, merge gates and automated deploys"></picture></summary>
+<dl><dd>
 
-- Configured MikroTik routers for a cross-continent VPN from Africa to my lab in India.
-- Added Tailscale as an independent fallback, so the lab stays reachable if the tunnel drops.
+```text
+$ cat ~/work/devsecops.log
+
+■ GitHub organization owner
+  Rulesets, required checks, custom CI gates, least-privilege teams.
+
+■ Merge gates for repos without branch protection
+  Exact-commit CI checks, reviewer sign-off, codeowner merge audit and
+  alerts on main. 18 workflows across two app repos, with automatic
+  version bumps on merge.
+
+■ Continuous deployment · in progress
+  Building a GitHub App that deploys merged code to company servers:
+  read-only repo access, a poller that works from behind NAT, and an
+  SSH forced command that backs up, migrates and restarts each site.
+  Piloted on one app, planned for about 20 repos.
+
+■ Self-hosted CI runners
+  Moving CI to self-hosted runners, with fork pull requests kept on
+  isolated runners.
+
+■ Security monitoring
+  SIEM, intrusion detection and SOC operations.
+
+■ Incident response
+  Found and fixed an information-disclosure exposure on a public website.
+```
+
+</dd></dl>
 
 </details>
 
 <details>
-<summary><b>Home lab</b> · storage and self-hosted services</summary>
-<br>
+<summary><picture><img src="assets/sections/apps.svg" width="96%" align="middle" alt="Business apps: moving production apps onto Frappe"></picture></summary>
+<dl><dd>
 
-- TrueNAS for storage, with Synology experience alongside it.
-- Self-hosted Jellyfin (media) and Carbonio (mail and collaboration).
+```text
+$ cat ~/work/business-apps.log
+
+■ Moving production apps onto Frappe
+  Responsible for migrating the company's existing production apps
+  onto the Frappe framework, starting with petty cash.
+
+■ Fleet management · Frappe
+  Fuel orders with approval workflow, printable fuel slips, fuelling
+  records with gauge photos and reports.
+  28 specs · 13 DocTypes · 39 merged PRs
+
+■ Petty cash · Frappe
+  Ported a legacy Django app to Frappe workflows, with disbursements
+  and an audit trail.
+  16 DocTypes · 78 merged PRs · release v0.6.0
+
+■ Litigation matter tracker · Django
+  Hearings, tasks, deadline alerts, email digests and calendar sync
+  for the legal team.
+
+■ Production and team
+  Run and harden the production Django and Frappe environments, and
+  lead a team of developers on reviews and release flow.
+```
+
+</dd></dl>
+
+</details>
+
+<details>
+<summary><picture><img src="assets/sections/network.svg" width="96%" align="middle" alt="Network: Africa to India VPN with a Tailscale fallback"></picture></summary>
+<dl><dd>
+
+```text
+$ cat ~/lab/network.log
+
+■ Cross-continent VPN
+  Configured MikroTik routers for a site-to-site VPN from Africa to
+  my lab in India.
+
+■ Failover path
+  Added Tailscale as an independent fallback, so the lab stays
+  reachable if the tunnel drops.
+```
+
+</dd></dl>
+
+</details>
+
+<details>
+<summary><picture><img src="assets/sections/homelab.svg" width="96%" align="middle" alt="Home lab: TrueNAS storage, Jellyfin media, Carbonio mail"></picture></summary>
+<dl><dd>
+
+```text
+$ cat ~/lab/homelab.log
+
+■ Storage
+  TrueNAS, with Synology experience alongside it.
+
+■ Self-hosted services
+  Jellyfin for media and Carbonio for mail and collaboration.
+```
+
+</dd></dl>
 
 </details>
 
@@ -100,15 +217,14 @@ More certifications on [LinkedIn](https://www.linkedin.com/in/rishabh-vyas-62097
 
 - **Blockchain in IoT to mitigate DDoS attacks** (MSc, 2022). Studied how to stop DDoS floods from many sources in IoT networks using blockchain.
 - **Accident prevention with machine learning** (2020). Predicted road accidents in Rajasthan from public data.
+- **[ShowTracker](https://github.com/Altair11165/TV_Tracker)** (2026). TV and movie tracker for a household: React Native (Expo) app with a Node and SQLite server on TMDB data.
 
 </details>
 
 ## Offensive security log `$ cat progress.log`
 
 <p>
-  <img src="https://img.shields.io/badge/Rank-Top%208%25-C11111?style=flat-square&logo=tryhackme&logoColor=white&labelColor=212C42" alt="Rank Top 8%">
-  <img src="https://img.shields.io/badge/League-Bronze-CD7F32?style=flat-square&labelColor=212C42" alt="League Bronze">
-  <img src="https://img.shields.io/badge/Best%20streak-12%20days-39d353?style=flat-square&labelColor=212C42" alt="Best streak 12 days">
+  <a href="https://tryhackme.com/p/Altair11165"><img src="https://tryhackme-badges.s3.amazonaws.com/Altair11165.png" alt="TryHackMe live badge: rank, badges and level"></a>
 </p>
 
 - [x] Pre Security path
